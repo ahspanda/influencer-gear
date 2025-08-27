@@ -1,0 +1,53 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+/* shared style  */
+.header-alignment{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* navbar styles  */
+
+.nav-links li{
+  list-style: none;
+  margin-left: 34px;
+}
+.nav-links li a{
+  text-decoration: none;
+}
+
+/* banner style  */
+.banner{
+  align-items: center;
+  margin-top: 50px;
+}
+.banner-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3A3A3A;
+}
+.banner-description{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3A3A3A;
+
+}
+
+.prebook-btn{
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #E02C6D;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 56px 10px 24px;
+}
+.btn-arrow{
+  margin-left: 10px;
+}
