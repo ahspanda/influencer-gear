@@ -2,7 +2,16 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
+.inter-regular{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
 /* shared style  */
+.bg-color{
+  background-color: #ADEED9;
+}
 .header-alignment{
   max-width: 1080px;
   margin: 0 auto;
@@ -35,6 +44,7 @@
 .banner{
   align-items: center;
   margin-top: 50px;
+  gap: 133px;
 }
 .banner-title{
   font-size: 3rem;
@@ -68,4 +78,49 @@
   padding: 15px;
   margin: 100px auto;
   width: 80%;
+  margin-left: 5px;
+}
+
+/* cards styles */
+.collection-section{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.collection-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+.cards{
+      border-radius: 15px;
+      padding: 17px 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.75);
+}
+.item-title{
+
+}
+.item-price{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+}
+.item-title{
+  font-size: 28px;
+  font-weight: 500;
+  color: rgba(24, 25, 31, 1);
+}
+.stars{
+  color: orange;
+}
+.number{
+  color: black;
+  margin-left: 5px;
 }
