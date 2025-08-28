@@ -97,14 +97,12 @@
   background-color: white;
   border-radius: 20px;
 }
-.cards{
-      border-radius: 15px;
-      padding: 17px 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.75);
+.cards {
+  border-radius: 15px;
+  padding: 17px 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.75);
 }
-.item-title{
 
-}
 .item-price{
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -117,6 +115,11 @@
   font-weight: 500;
   color: rgba(24, 25, 31, 1);
 }
+.item-description{
+  font-size: 14px;
+  font-weight: 700;
+  color: #787885;
+}
 .stars{
   color: orange;
 }
@@ -124,3 +127,61 @@
   color: black;
   margin-left: 5px;
 }
+.see-more {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.see-more a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #e91e63;
+  font-size: 16px;
+}
+
+
+/* feature section styles  */
+.feature{
+  display: flex;
+  margin: auto;
+  gap: 96px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.feature-img{
+  padding-top: 35px;
+}
+.feature-title{
+  font-size: 38px;
+  font-weight: 700;
+  color: #0A0826;
+}
+.feature-description{
+  font-size: 16px;
+  font-weight: 700;
+  color: #6C6C6C;
+}
+.join-now-btn{
+  border: none;
+  padding: 10px 36px 10px 24px;
+  background-color: #E02C6D;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footer{
+  text-align: center;
+  background-color: #0a0826 ;
+  padding: 40px 20px;
+  color: white;
+  
+}
+
+.social-icons a{
+  color: white;
+  margin-left: 10px;
+}
+.social-icons a:hover {
+      color: orangered;
+    }
